@@ -13,15 +13,15 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
       </div>
 
       <ul className={css.stats}>
-        <li>
+        <li style={{ backgroundColor: '#9c9583' }}>
           <span className={css.label}>Followers</span>
           <span className={css.quantity}>{followers}</span>
         </li>
-        <li>
+        <li style={{ backgroundColor: '#e2d4b7' }}>
           <span className={css.label}>Views</span>
           <span className={css.quantity}>{views}</span>
         </li>
-        <li>
+        <li style={{ backgroundColor: '#b0bbbf' }}>
           <span className={css.label}>Likes</span>
           <span className={css.quantity}>{likes}</span>
         </li>
