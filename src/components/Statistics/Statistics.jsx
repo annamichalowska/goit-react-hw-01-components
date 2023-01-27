@@ -27,11 +27,11 @@ export const Statistics = ({ stats, title }) => {
 };
 
 Statistics.propTypes = {
+  title: PropTypes.string.isRequired,
   stats: PropTypes.shape({
     docx: PropTypes.number,
     mp3: PropTypes.number,
     pdf: PropTypes.number,
     mp4: PropTypes.number,
   }).isRequired,
-  title: PropTypes.string.isRequired,
 };
